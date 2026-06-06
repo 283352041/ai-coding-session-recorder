@@ -1,0 +1,24 @@
+{
+  "name": "ai-coding-session-recorder",
+  "version": "0.1.0",
+  "description": "Record AI coding sessions into clean Markdown devlogs.",
+  "type": "module",
+  "bin": {
+    "session-recorder": "./bin/session-recorder.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node ./bin/session-recorder.js"
+  },
+  "keywords": [
+    "developer-tools",
+    "ai",
+    "cli",
+    "github"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
